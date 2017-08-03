@@ -7,7 +7,7 @@ class AlexNet(chainer.Chain):
     def __init__(self, num_class, train=True):
         super(AlexNet, self).__init__()
         with self.init_scope():
-            self.conv1=L.Convolution2D(None, 96, 11, stride=4)
+            self.conv1=L.Convolution2D(None, 96, 11, stride=2)
             self.conv2=L.Convolution2D(None, 256, 5, pad=2)
             self.conv3=L.Convolution2D(None, 384, 3, pad=1)
             self.conv4=L.Convolution2D(None, 384, 3, pad=1)
