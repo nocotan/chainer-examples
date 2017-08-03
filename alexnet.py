@@ -4,7 +4,7 @@ import chainer.functions as F
 import chainer.links as L
 
 class AlexNet(chainer.Chain):
-    def __init__(self, train=True):
+    def __init__(self, num_class, train=True):
         super(AlexNet, self).__init__()
         with self.init_scope():
             self.conv1=L.Convolution2D(None, 96, 11, stride=4)
@@ -14,7 +14,7 @@ class AlexNet(chainer.Chain):
             self.conv5=L.Convolution2D(None, 256, 3, pad=1)
             self.fc6=L.Linear(None, 4096)
             self.fc7=L.Linear(None, 4096)
-            self.fc8=L.Linear(None, 10)
+            self.fc8=L.Linear(None, num_class)
 
     def __call__(self, x):
         h = F.max_pooling_2d(F.local_response_normalization(
