@@ -1,6 +1,7 @@
 # chainer-example
 
 ## CNN
+- LeNet
 - AlexNet
 - VGG16
 - VGG19
