@@ -1,4 +1,6 @@
 # chainer-example
+Implementation of various neural networks with chainer.
+
 * [Chainer](https://chainer.org/)
 * [Chainer GitHub Repo](https://github.com/chainer/chainer)
 * [Chainer documentation](https://docs.chainer.org/en/stable/index.html)
@@ -12,6 +14,7 @@
 
 ## ResNet
 - ResNet: [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385v1.pdf)
+- ResNext: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
 
 ## MNIST
 - MLP
