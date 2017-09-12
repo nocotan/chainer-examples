@@ -29,7 +29,7 @@ class VGG19Net(chainer.Chain):
             self.conv16=L.Convolution2D(None, 512, 3, stride=1, pad=1)
 
             self.fc17=L.Linear(None, 4096)
-            self,fc18=L.Linear(None, 4096)
+            self.fc18=L.Linear(None, 4096)
             self.fc19=L.Linear(None, num_class)
 
     def __call__(self, x):
