@@ -10,6 +10,9 @@
 - VGG16: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
 - GoogleNet: [ImageNet Large Scale Visual Recognition Challenge](http://hci.stanford.edu/publications/2015/scenegraphs/imagenet-challenge.pdf)
 
+## ResNet
+- ResNet: [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385v1.pdf)
+
 ## MNIST
 - MLP
 - CNN
