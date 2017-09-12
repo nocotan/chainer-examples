@@ -88,8 +88,6 @@ class ResNext(chainer.Chain):
             self.conv3 = L.Convolution2D(None, num_class, 1, pad=0)
 
     def __call__(self, x):
-        x.volatile = not self.train
-
         h = F.elu(self.conv1(x))
         h = F.max_pooling_2d(h, 3, stride=2)
         h = self.res2(h, self.train)
@@ -99,7 +97,7 @@ class ResNext(chainer.Chain):
         h = F.spatial_pyramid_pooling_2d(h, 3, F.MaxPooling2D)
 
         h = F.elu(self.conv2(h))
-        h = F.dropout(h, ratio=0.5, train=self.train)
+        h = F.dropout(h, ratio=0.5)
         h = self.conv3(h)
         h = F.reshape(h, (-1, self.num_class))
 
