@@ -19,6 +19,9 @@ ResNet and its variants
 - DenseNet: [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf)
 - ResNext: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
 
+## AutoEncoder
+- VAE: [Variational AutoEncoder](https://arxiv.org/abs/1312.6114)
+
 ## MNIST
 - MLP
 - CNN
