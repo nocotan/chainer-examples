@@ -5,6 +5,9 @@ Implementation of various neural networks with chainer.
 * [Chainer GitHub Repo](https://github.com/chainer/chainer)
 * [Chainer documentation](https://docs.chainer.org/en/stable/index.html)
 
+## Regression
+- Logistic Regression
+
 ## CNN
 Convolutional Networks
 - LeNet: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
