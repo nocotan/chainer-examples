@@ -7,6 +7,7 @@ Implementation of various neural networks with chainer.
 
 ## Regression
 - Logistic Regression
+- Linear Regression
 
 ## CNN
 Convolutional Networks
