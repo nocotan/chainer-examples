@@ -28,6 +28,7 @@ ResNet and its variants
 
 ## GAN
 - DCGAN: [UNSUPERVISED REPRESENTATION LEARNING WITH DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS](https://arxiv.org/pdf/1511.06434.pdf)
+- BEGAN: [Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717)
 
 ## MNIST
 - MLP
