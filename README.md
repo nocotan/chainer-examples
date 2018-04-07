@@ -30,6 +30,7 @@ ResNet and its variants
 - DCGAN: [UNSUPERVISED REPRESENTATION LEARNING WITH DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS](https://arxiv.org/pdf/1511.06434.pdf)
 - BEGAN: [Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717)
 - WGAN: [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+- WGAN-GP: [Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028)
 
 ## MNIST
 - MLP
